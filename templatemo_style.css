@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  line-height: 1.5em;
+
+  color: #3e3e3e;
+
+  background: #e2e2e2 url(images/templatemo_page_bg.jpg) repeat-x center top;
+
+  width: 100%;
+
+  display: table;
+}
+
+a:link,
+a:visited {
+  color: #b65311;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  color: #3e3e3e;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: #a30000;
+}
+
+h2 {
+  font-size: 14px;
+
+  font-weight: bold;
+
+  color: #cb1a1a;
+
+  margin-left: 30px;
+
+  width: 200px;
+
+  border-bottom: dashed 1px #999999;
+}
+
+h3 {
+  font-size: 14px;
+
+  font-weight: bold;
+
+  color: #f67400;
+}
+
+#templatemo_container {
+  width: 805px;
+
+  margin: auto;
+
+  background: url(images/templatemo_container_bg.jpg) repeat-y;
+}
+
+#templatemo_left_section {
+  float: left;
+
+  width: 500px;
+}
+
+#templatemo_left_section_new {
+  float: left;
+
+  width: 800px;
+}
+
+#templatemo_right_section {
+  float: left;
+
+  width: 305px;
+}
+
+#templatemo_left_header {
+  float: left;
+
+  width: 500px;
+
+  height: 216px;
+
+  background: url(images/templatemo_left_header.jpg) no-repeat;
+}
+
+#templatemo_left_title {
+  padding-top: 30px;
+
+  color: #ffffff;
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+  height: 45px;
+
+  width: 450px;
+
+  line-height: 1.6em;
+
+  padding-left: 50px;
+}
+
+#templatemo_left_slogan {
+  float: left;
+
+  height: 35px;
+
+  width: 450px;
+
+  color: #ffe9ba;
+
+  padding-left: 50px;
+
+  font-weight: bold;
+}
+
+#templatemo_latest {
+  float: left;
+
+  margin: 40px 0px 0px 130px;
+
+  width: 300px;
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: bold;
+}
+
+#templatemo_latest a {
+  color: #ffffff;
+}
+
+#templatemo_left_menu {
+  float: left;
+
+  width: 500px;
+
+  height: 73px;
+
+  background: url(images/templatemo_left_menu.jpg) no-repeat;
+}
+
+.templatemo_topmenu {
+  float: left;
+  color: #a30000;
+  margin: 3px 0px 0px 20px;
+}
+
+.templatemo_topmenu ul {
+  list-style: none;
+
+  padding: 0px;
+
+  margin: 0px;
+}
+
+.templatemo_topmenu li {
+  display: inline;
+}
+
+.templatemo_topmenu li a {
+  float: left;
+
+  font-size: 11px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+  text-align: center;
+
+  color: #fff;
+
+  width: 90px;
+
+  height: 31px;
+
+  margin-left: 0px;
+
+  padding-top: 11px;
+}
+
+.templatemo_topmenu li a:hover,
+.templatemo_topmenu li .current {
+  background: url(images/templatemo_hover.jpg) repeat-x;
+}
+
+#templatemo_left_content {
+  float: left;
+  width: 430px;
+  margin: 0px 0px 20px 50px;
+  text-align: left;
+}
+
+.templatemo_content_left {
+  float: left;
+
+  width: 200px;
+}
+
+.templatemo_content_right {
+  float: right;
+
+  width: 200px;
+}
+
+#templatemo_right_top {
+  float: left;
+
+  width: 324px;
+
+  height: 216px;
+
+  background: url(images/Auction.jpg) no-repeat;
+}
+
+#templatemo_right_search {
+  float: left;
+
+  width: 305px;
+
+  height: 73px;
+
+  background: url(images/templatemo_search_menu.jpg) no-repeat;
+}
+
+#templatemo_memberlog {
+  float: left;
+
+  width: 305px;
+}
+
+#templatemo_category {
+  float: left;
+
+  width: 305px;
+
+  margin-top: 20px;
+}
+
+.templatemo_rightmenu {
+  float: left;
+
+  margin-top: 0px;
+
+  font-size: 13px;
+
+  font-weight: bold;
+}
+
+.templatemo_rightmenu ul {
+  list-style-type: none;
+}
+
+.templatemo_rightmenu li a {
+  display: block;
+
+  width: 171px;
+
+  height: 23px;
+
+  font-size: 11px;
+
+  color: #a30000;
+
+  margin-top: 2px;
+
+  padding-left: 40px;
+
+  padding-top: 5px;
+
+  background: url(images/templatemo_button.png) no-repeat;
+}
+
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+.templatemo_rightmenu li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#templatemo_contact {
+  float: left;
+
+  width: 305px;
+}
+
+#templatemo_contact p {
+  padding-left: 40px;
+
+  font-weight: bold;
+}
+
+#templatemo_footer {
+  clear: both;
+
+  width: 770px;
+
+  height: 28px;
+
+  color: #ffffff;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  margin-left: 18px;
+
+  margin-top: 30px;
+
+  padding-top: 20px;
+
+  background: url(images/templatemo_footer_bg.jpg) repeat-x;
+}
+
+#form1 {
+  float: left;
+
+  margin-top: 0px;
+}
+
+#search_item {
+  width: 120px;
+
+  margin: 10px 0px 0px 40px;
+
+  font-size: 11px;
+}
+
+#search_btn {
+  font-size: 11px;
+
+  background: #ffffff;
+
+  border: 0px;
+
+  margin-left: 5px;
+}
+
+#form2 {
+  margin-left: 30px;
+}
+
+#user_name {
+  width: 100px;
+
+  font-size: 10px;
+
+  margin-left: 10px;
+}
+
+#password {
+  width: 100px;
+
+  font-size: 10px;
+
+  margin-left: 17px;
+}
+
+#login {
+  font-size: 10px;
+}
+
+#newmember {
+  font-size: 10px;
+
+  margin-left: 20px;
+}
