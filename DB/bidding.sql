@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.6
+-- version 5.1.1
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2014 at 12:06 PM
--- Server version: 5.5.36
--- PHP Version: 5.4.25
+-- Generation Time: Oct 06, 2021 at 12:06 PM
+-- Server version: 8.0.13
+-- PHP Version: 8.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -41,12 +41,10 @@ CREATE TABLE IF NOT EXISTS `add_products` (
 --
 
 INSERT INTO `add_products` (`p_id`, `p_name`, `category`, `price`, `image`, `desp`) VALUES
-(1, 'Loudspeaker', 'Electronics', '1500', 'Loudspeaker.jpg', 'Vintage retro loudspeaker of the USSR times. The radio was released in the 1960s at the Leningrad Radio Components Plant.'),
-(2, 'Vintage Phone', 'Antique', '15000', 'VintageDesktopTelphone.jpg', ' '),
-(3, 'Diamond Ring', 'Jewellery', '7,57,000', 'ring.jpg', 'Product Specifications:
-- 2.00 High quality natural Pigeon Blood Oval Cut Ruby at the center
-- 6 Round Brilliant cut Diamonds, total carat around 0.18ct
-- 4 Marquise cut Diamonds, total carat around 0.24ct'),
+(7, 'Loudspeaker', 'Electronic', '1500', 'Loudspeaker.jpg', 'Vintage Speaker'),
+(5, 'Diamond Ring', 'Jewellery', '757000', 'ring.jpg', 'Marquise Diamond Ring'),
+(6, 'Pocket Watch', 'Jewellery', '2500', 'watch.jpg', 'Vintage Waltham pocket watch'),
+(8, 'Pendant', 'Jewellery', '15000', 'chain.jpg', 'Gorgeous golden brass pendant with 4 flower prongs');
 
 -- --------------------------------------------------------
 
@@ -91,8 +89,10 @@ CREATE TABLE IF NOT EXISTS `bidding` (
 --
 
 INSERT INTO `bidding` (`bid_id`, `date`, `product_name`, `category`, `price`, `bid_price`, `name`, `email`, `add`, `ph`) VALUES
-(10, '2021-11-26', 'Loudspeaker', 'Electronics', '1500', '2000', 'Danish', 'danish123@gmail.com', 'Mumbai', 9876543289);
-(9, '2021-11-22', 'Loudspeaker', 'Electronics', '1500', '1600', 'Danish', 'danish123@gmail.com', 'Mumbai', 9876543289);
+(6, '2021-12-06', 'Pocket Watch', 'Jewellery', '3500', '2500', 'Muzaffar', 'muzaffar@gmail.com', 'Mumbai', 9876543280),
+(2, '2021-12-07', 'Diamond Ring', 'Jewellery', '3500', '75700', 'Muzaffar', 'muzaffar@gmail.com', 'Mumbai', 9876543280),
+(5, '2021-11-26', 'Loudspeaker', 'Electronic', '25000', '1500', 'Danish', 'danish123@gmail.com', 'Mumbai', 9876543219),
+(4, '2021-11-22', 'Loudspeaker', 'Electronic', '25000', '1500', 'Danish', 'danish123@gmail.com', 'Mumbai', 9876543219);
 
 -- --------------------------------------------------------
 
@@ -118,7 +118,7 @@ CREATE TABLE IF NOT EXISTS `user_registration` (
 --
 
 INSERT INTO `user_registration` (`user_id`, `f_name`, `l_name`, `email`, `pass`, `dob`, `gender`, `address`, `phone`) VALUES
-(1, 'Danish', 'Jamadar', 'danish123@gmail.com', 'danish123', '01/07/2003', 'male', 'Mumbai', '9876543289');
+(4, 'Danish', 'Jamadar', 'danish123@gmail.com', '12345', '11-06-2001', 'male', 'Mumbai', '9876543219');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
